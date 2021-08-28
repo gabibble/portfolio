@@ -2,19 +2,76 @@ body {
   font-family: "Urbanist", sans-serif;
   background-color: #97ebcc;
   color: #889498;
+  margin: 15px;
 }
 
 h1 {
   color: white;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 78px;
 }
 
+h2,
 h3 {
   color: white;
   font-weight: 600;
+  display: block;
 }
 
+h2 {
+  text-align: center;
+}
 p {
   font-family: "Source Serif Pro", serif;
+}
+
+hr {
+  background-color: White;
+}
+
+img {
+  border-radius: 4px;
+}
+
+.container {
+  border: rgb(255, 255, 255) solid 1px;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 15px auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav-links a {
+  text-decoration: none;
+  padding: 15px;
+  margin: 15px;
+  background-color: rgba(255, 255, 255, 0.288);
+  color: #889498;
+  width: 160px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 200;
+  font-size: 28px;
+  font-family: "Source Serif Pro", serif;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  .nav-links a {
+    font-size: 21px;
+  }
 }
