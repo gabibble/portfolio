@@ -1,6 +1,7 @@
 :root {
-  --bg-color: #7fa99b;
-  --heading-color: #fbf2d5;
+  --bg-color: #8d96c9;
+  --heading-color: #e1e2e7;
+  --heading75: #fae9d6c2;
   --text-color: #00000091;
   --accent-color: #fdc57b;
 }
@@ -10,14 +11,12 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   margin: 15px;
-  border: #fbf2d59c solid 1px;
-  border-radius: 4px;
 }
 
 h1 {
-  color: var(--heading-color);
+  color: var(--bg-color);
   font-weight: 600;
-  font-size: 78px;
+  font-size: 96px;
 }
 
 h2,
@@ -44,6 +43,7 @@ p {
 
 hr {
   background-color: var(--heading-color);
+  margin: 24px 9px;
 }
 
 img {
@@ -61,10 +61,17 @@ a:hover {
   color: var(--text-color);
 }
 
+.container {
+  width: 100%;
+  border: #fbf2d59c solid 1px;
+  border-radius: 4px;
+}
+
 .hero {
   text-align: center;
   padding: 60px 15px;
-  border-radius: 5px;
+  margin: 9px;
+  background-color: var(--heading-color);
 }
 
 .links {
@@ -108,7 +115,7 @@ a:hover {
   color: var(--text-color);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 700px) {
   h1 {
     font-size: 42px;
   }
