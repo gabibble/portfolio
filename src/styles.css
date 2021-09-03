@@ -1,7 +1,7 @@
 :root {
   --bg-color: #8d96c9;
   --heading-color: #e1e2e7;
-  --heading75: #fae9d6c2;
+  --heading75: #e1e2e7c2;
   --text-color: #00000091;
   --accent-color: #fdc57b;
 }
@@ -64,7 +64,7 @@ a:hover {
 
 .container {
   width: 100%;
-  border: #fbf2d59c solid 1px;
+  border: var(--heading75) solid 1px;
   border-radius: 4px;
 }
 
