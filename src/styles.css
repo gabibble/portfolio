@@ -69,6 +69,10 @@ footer {
   opacity: 75%;
 }
 
+footer a {
+  color: var(--heading-color);
+}
+
 .container {
   width: 100%;
   border: var(--heading75) solid 1px;
