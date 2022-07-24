@@ -15,12 +15,12 @@ body {
 
 h1 {
   color: var(--heading-color);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 96px;
   text-align: center;
+  font-family: "Aleo";
 }
 
-h2,
 h4 {
   font-weight: 600;
   display: block;
@@ -34,9 +34,12 @@ h2 {
 }
 
 h3 {
-  color: var(--text-color);
+  color: var(--heading-color);
   font-size: 48;
+  font-family: "aleo";
+  font-weight: 300;
 }
+
 p {
   font-size: 18px;
   font-weight: 300;
@@ -138,9 +141,12 @@ footer a {
 }
 
 @media (max-width: 770px) {
-  h1,
-  h2 {
+  h1 {
     font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
   }
 
   .links a {
